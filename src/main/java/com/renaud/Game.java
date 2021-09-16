@@ -25,7 +25,7 @@ public class Game extends JPanel implements ActionListener {
     public void paint(Graphics g){
         // we will be painting with the variable g using the super class
         super.paint(g);
-        // using a caste system converting g variable from a Graphics variable into a Graphics 2D variable
+        // using a caste system converting g variable from a Graphics variable into a Graphics 2D variable g2d
         Graphics2D g2d = (Graphics2D) g;
     }
 
